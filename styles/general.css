@@ -1,0 +1,50 @@
+html{
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 8%);
+}
+
+h1{
+  margin: 0px;
+  margin-top: -40px;
+}
+
+h2 {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-size: 30px;
+}
+
+p {
+  margin: 0px;
+  color: hsl(217, 12%, 63%);
+}
+
+button {
+  color: hsl(217, 12%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
